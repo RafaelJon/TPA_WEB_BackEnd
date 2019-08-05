@@ -7,28 +7,15 @@ type User struct{
     Password string
     Dob string
     Marketingstatus string
-}
-
-type Stay struct{
-    Id int
+    Description string
+    Date string
+    Gender string
+    Phone string
+    Preferredlang string
+    Preferredcurr string
+    Spokenlang string
     Picture string
-    Type string
+    Restime string
+    Resrate string
     Location string
-    Title string
-    Price int
-    TotalReview int
-    Star int
-    GeneralLoc string
-}
-
-type Experience struct{
-    Id int
-    Picture string
-    Type string
-    Location string
-    Title string
-    Price int
-    TotalReview int
-    Star int
-    GeneralLoc string
 }
